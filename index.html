@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Próximo Viaje</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="inicio">
+  <div class="contenedor">
+    <h1>PRÓXIMO VIAJE</h1>
+    <img src="images/viaje.jpeg" alt="Teotihuacán">
+
+    <div class="formulario">
+      <div class="campo">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+      </div>
+
+      <div class="campo">
+        <label>País que deseas conocer:</label>
+        <input type="text" id="pais" placeholder="Ejemplo: Bolivia">
+      </div>
+
+      <button onclick="irAPais()">Ir al país</button>
+    </div>
+
+    <div id="mensaje" class="mensaje-cuadro"></div>
+  </div>
+</body>
+</html>
